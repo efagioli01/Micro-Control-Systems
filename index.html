@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Micro Control Systems</title>
+</head>
+
+<body>
+
+    <table border="1">
+        <h2>Total number of SI's</h2>
+        
+        <button id="buttonUp onClick=incrementButton()">up</button> <button>down</button>
+       
+        <thead>
+
+            <tr>
+                <th>Point<br>Numbers</th>
+                <th>Name</th>
+                <th>Display</th>
+                <th>Offset</th>
+                <th>Manual Value or<br>NC/NO</th>
+                <th>Display Text<br>(select to chnage)</th>
+                <th>Temp./ GPM / CFM / <br> Pwr Factor SI</th>
+                <th>Hand./PSI/<br>Temp. Diff./<br>Enthal. Diff.</th>
+                <th>Auto/Manual<br>(Click here for all)</th>
+            </tr>
+
+        </thead>
+        <tbody>
+           
+                <tr>
+                    <td>1</td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><input type="text" value="test"></td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><button class="btn">AUTO</button></td>
+
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><input type="text" value="test"></td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><button class="btn">AUTO</button></td>
+                <tr>
+                    <td>3</td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><input type="text" value="test"></td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><button class="btn">AUTO</button></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><input type="text" value="test"></td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><button class="btn">AUTO</button></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><input type="text" value="test"></td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><button class="btn">AUTO</button></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><input type="text" value="test"></td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><button class="btn">AUTO</button></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><input type="text" value="test"></td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><button class="btn">AUTO</button></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><input type="text" value="test"></td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><button class="btn">AUTO</button></td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><input type="text" value="test"></td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><button class="btn">AUTO</button></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><input type="text" value="test"></td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><button class="btn">AUTO</button></td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><input type="text" value="test"></td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><button class="btn">AUTO</button></td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><input type="text" value="test"></td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><button class="btn">AUTO</button></td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><input type="text" value="test"></td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><button class="btn">AUTO</button></td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><input type="text" value="test"></td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><button class="btn">AUTO</button></td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><input type="text" value="test"></td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><button class="btn">AUTO</button></td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><input type="text" value="test"></td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><button class="btn">AUTO</button></td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><input type="text" value="test"></td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><button class="btn">AUTO</button></td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><input type="text" value="test"></td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><button class="btn">AUTO</button></td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><input type="text" value="test"></td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><button class="btn">AUTO</button></td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><input type="text" value="test"></td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><button class="btn">AUTO</button></td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><input type="text" value="test"></td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><button class="btn">AUTO</button></td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><input type="text" value="test"></td>
+                    <td><input type="text" value="test"></td>
+                   <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                   <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                   <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                   <td><button class="btn">AUTO</button></td>
+                </tr>
+                <tr>
+                    <td>23</td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><input type="text" value="test"></td>
+                    <td><input type="text" value="test"></td>
+                   <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                   <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                   <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                   <td><button class="btn">AUTO</button></td>
+                </tr>
+                <tr>
+                    <td>24</td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><input type="text" value="test"></td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><button class="btn">AUTO</button></td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><input type="text" value="test"></td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><button class="btn">AUTO</button></td>
+                </tr>
+                <tr>
+                    <td>26</td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><input type="text" value="test"></td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><button class="btn">AUTO</button></td>
+                </tr>
+                <tr>
+                    <td>27</td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><input type="text" value="test"></td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><button class="btn">AUTO</button></td>
+                </tr>
+                <tr>
+                    <td>28</td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><input type="text" value="test"></td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><button class="btn">AUTO</button></td>
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><input type="text" value="test"></td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><button class="btn">AUTO</button></td>
+                </tr>
+                <tr>
+                    <td>30</td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><input type="text" value="test"></td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><button class="btn">AUTO</button></td>
+                </tr>
+                <tr>
+                    <td>31</td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><input type="text" value="test"></td>
+                    <td><input type="text" value="test"></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td class="select" align="center"><select><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem1</option><option value="dropdown">dropdownItem2</option><option value="dropdown">dropdownItem3</option></select></td>
+                    <td><button class="btn">AUTO</button></td>
+                </tr>
+            
+
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+
+    </table>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
