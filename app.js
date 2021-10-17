@@ -1,53 +1,66 @@
 
-// const btn = document.getElementById("btn");
+let buttons = document.querySelectorAll('.btn')
+buttons.forEach((btn) => {
+    btn.addEventListener("click", (event) => {
 
-// btn.addEventListener("click", ()=>{
-
-//     if(btn.innerText === "AUTO"){
-//         btn.innerText = "MANUAL";
-//     }else{
-//         btn.innerText= "AUTO";
-//     }
-// });
-
-
-// const btn2 = document.getElementById("btn2");
-
-// btn2.addEventListener("click", ()=>{
-
-//     if(btn2.innerText === "AUTO"){
-//         btn2.innerText = "MANUAL";
-//     }else{
-//         btn2.innerText= "AUTO";
-//     }
-// });
+        if (btn.innerText === "AUTO") {
+            btn.innerText = "MANUAL";
+        } else {
+            btn.innerText = "AUTO";
+        }
+    });
+});
 
 
-
-
-
-// btns = document.getElementsByClassName("btn");
-// for (var i = 0; i < btns.length; i++) {
-//     btns[i].addEventListener("click", function () {
-//         console.log('hi')
-//        alert([i])
-
-//     });
+// function increment() {
+//     document.getElementById('demoInput').stepUp();
+// }
+// function decrement() {
+//     document.getElementById('demoInput').stepDown();
 // }
 
 
 
-let buttons = document.querySelectorAll('.btn')
-buttons.forEach((btn) => {
-  btn.addEventListener("click", (event) => {
+function getVal() {
+    const val = document.querySelector('input').value;
+    console.log(val);
     
-    if(btn.innerText === "AUTO"){
-            btn.innerText = "MANUAL";
-            }else{
-                btn.innerText= "AUTO";
-           }
-  });
-});
+
+
+    // if (val < 20) {
+    //     console.log('yes')
+    //     document.getElementById("firstInput").removeAttribute('disabled', 'disabled');
+    //     document.getElementById("dis").removeAttribute('disabled', 'disabled');
+    //     document.getElementById("bt").removeAttribute('disabled', 'disabled');
+
+    // } else {
+    //     console.log('no')
+    //     document.getElementById("firstInput").setAttribute('disabled', 'disabled');
+    //     document.getElementById("dis").setAttribute('disabled', 'disabled');
+    //     document.getElementById("bt").setAttribute('disabled', 'disabled');
+    // }
+}
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
